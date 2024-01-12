@@ -1,5 +1,5 @@
-/** 
-* ! work sans font form google fonts
+/* 
+! work sans font form google fonts
 */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
@@ -10,8 +10,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/** 
-* ! general styles
+/*
+! general styles
 */
 .btn-primary {
     cursor: pointer;
@@ -24,16 +24,16 @@
 }
 
 
-/** 
-* ! header section
+/*
+! header section
 */
 header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
 
-/** 
-* ! nav section
+/* 
+! nav section
 */
 nav {
     display: flex;
@@ -63,8 +63,8 @@ nav li a {
     color: #424242;
 }
 
-/** 
-* ! banner section
+/*
+! banner section
 */
 .banner-content {
     max-width: 800px;
@@ -88,11 +88,11 @@ nav li a {
     margin-top: 20px;
 }
 
-/** 
-* ! responsive media queries
+/*
+! responsive media queries
 */
-/** 
-* ! mobile devices
+/*
+! mobile devices
 */
 @media screen and (max-width: 576px) {
     header{
@@ -102,8 +102,8 @@ nav li a {
         flex-direction: column;
     }
 }
-/** 
-* ! tablet or medium devices
+/* 
+! tablet or medium devices
 */
 @media screen and (min-width: 576px) and (max-width: 960px) {
     header{
@@ -113,3 +113,43 @@ nav li a {
         flex-direction: column;
     }
 }
+
+/* 
+! main section
+*/
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* 
+! features Section
+*/
+.team-container {
+    display: flex;
+    align-items: center;
+}
+
+.team-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content {
+    padding: 0 70px;
+}
+
+.teams-title {
+    font-size: 2.8rem; 
+}
+
+.teams-title .quick-list {
+    color:#727272;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.teams-title .text-fatures {
+    color: #FF900E;
+    font-weight: 700;
+}
+
