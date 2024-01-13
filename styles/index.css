@@ -249,6 +249,7 @@ main {
     .feature-img img {
         width: 90%;
         margin-left: 0;
+
     }
     .ten-year-badge {
         position: static;
@@ -280,6 +281,7 @@ main {
 
     nav,
     .team-container,
+    .features,
     .sponsors-img-container {
         flex-direction: column;
     }
